@@ -38,11 +38,5 @@ public  class Example12 extends Example11
 		System.out.println(c);
 		
 	}
-	
-
-	
-	
-
-	
 
 }
