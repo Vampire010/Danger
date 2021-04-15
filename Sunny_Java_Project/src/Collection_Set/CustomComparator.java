@@ -11,11 +11,11 @@ public class CustomComparator implements Comparator<String>
         int value =  animal1.compareTo(animal2);
 
         // elements are sorted in reverse order
-        if (value > 0) 
+        if (value < 0) 
         {
             return 1;
         }
-        else if (value < 0)
+        else if (value > 0)
         {
             return -1;
         }
